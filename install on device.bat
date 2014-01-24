@@ -1,0 +1,2 @@
+phonegap run android
+pause
