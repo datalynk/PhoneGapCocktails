@@ -1,0 +1,36 @@
+
+<div data-role="page" id="cocktail-details-page">
+
+    <div data-role="header">
+        <h1>Cocktail details</h1>
+    </div><!-- /header -->
+
+    <div role="content" class="ui-content">
+       
+
+
+
+
+    <h1 class="ui-bar ui-bar-a ui-corner-all" data-bind="text: name"></h1>
+      
+    <img data-bind="attr: { src: 'http://www.mijncocktail.nl' + imageUrl() }" />
+
+      <div class="ui-body ui-body-a ui-corner-all">
+          <h4>Omschrijving</h4>
+          <p data-bind="text: description"></p>
+      </div>
+
+      <div class="ui-body ui-body-a ui-corner-all">
+          <h4>Bereiding</h4>
+          <p data-bind="text: preparation"></p>
+      </div>
+
+      <div class="ui-body ui-body-a ui-corner-all">
+          <h4>Ingredienten</h4>
+          <p data-bind="text: ingredients"></p>
+      </div>
+
+    </div><!-- /content -->
+
+
+</div>
